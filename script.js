@@ -1,4 +1,4 @@
-console.log("Hello World");
+console.log("Rock Paper Scissors :");
 let rockCounter =  localStorage.getItem("rock_counter") ? Number(localStorage.getItem("rock_counter")) : 0;
 let paperCounter = localStorage.getItem("paper_counter") ? Number(localStorage.getItem("paper_counter")) : 0;
 let scissorsCounter = localStorage.getItem("scissors_counter") ? Number(localStorage.getItem("scissors_counter")) : 0;
